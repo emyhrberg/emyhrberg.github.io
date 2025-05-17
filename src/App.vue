@@ -3,12 +3,11 @@
         <nav class="top-nav">
             <RouterLink to="/">Home</RouterLink>
             <RouterLink to="/about">About</RouterLink>
-            <RouterLink to="/blog">Blog</RouterLink>
-            <RouterLink to="/archive">Archive</RouterLink>
+            <RouterLink to="/tools">Tools</RouterLink>
             <RouterLink to="/contact">Contact</RouterLink>
 
-            <!-- tooltip + external link -->
-            <a href="https://github.com/emyhrberg" target="_blank" rel="noopener noreferrer" title="GitHub">
+            <!-- tooltip + external link to open in new tab -->
+            <a href="https://github.com/emyhrberg" target="_blank" title="https://github.com/emyhrberg">
                 <img class="logo" src="./assets/erky-logo.png" alt="logo" width="50" height="50" />
             </a>
         </nav>
@@ -68,6 +67,21 @@ main {
 
 hr {
     border: none;
+}
+
+/* links custom style */
+.ext-link,
+.ext-link:visited {
+  color: var(--accent);
+  text-decoration: underline;
+}
+
+.ext-link span {
+  text-decoration: underline;
+}
+
+.ext-link:hover {
+  color: #467ccc;
 }
 
 </style>

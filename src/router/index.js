@@ -1,9 +1,8 @@
 import { createRouter, createWebHistory } from 'vue-router';
-import About from '../components/About.vue';
-import Archive from '../components/Archive.vue';
-import Blog from '../components/Blog.vue';
-import Contact from '../components/Contact.vue';
-import Home from '../components/Home.vue';
+import About from '../components/pages/About.vue';
+import Contact from '../components/pages/Contact.vue';
+import Home from '../components/pages/Home.vue';
+import Tools from '../components/pages/Tools.vue';
 
 
 export default createRouter({
@@ -11,8 +10,7 @@ export default createRouter({
   routes: [
     { path: '/', alias: '/home', component: Home },
     { path: '/about', name: 'about', component: About },
-    { path: '/blog', name: 'blog', component: Blog },
-    { path: '/archive', name: 'archive', component: Archive },
+    { path: '/tools', name: 'tools', component: Tools },
     { path: '/contact', name: 'contact', component: Contact },
   ],
 });
