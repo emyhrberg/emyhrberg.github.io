@@ -26,8 +26,8 @@
             <div class="list-block">
                 <p><b>Online Tools</b></p>
                 <ul class="link-list">
-                    <li>- <ExternalLink href="https://cobalt.tools/">Cobalt Tools</ExternalLink> (download youtube videos)</li>
-                    <li>- <ExternalLink href="https://onpaste.com/">OnPaste</ExternalLink> (draw on images)</li>
+                    <li>- <ExternalLink href="https://cobalt.tools/">Cobalt Tools</ExternalLink></li>
+                    <li>- <ExternalLink href="https://onpaste.com/">OnPaste</ExternalLink></li>
                 </ul>
             </div>
         </div>
